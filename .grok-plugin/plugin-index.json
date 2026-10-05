@@ -1,6 +1,30 @@
 {
   "version": 1,
   "plugins": {
+    "aigov-ai-governance": {
+      "sha": "e627c3126544d13ebe73e47b6f265b660f0453c5",
+      "version": "1.0.0",
+      "components": {
+        "skills": [
+          {
+            "name": "ai-act-assessment",
+            "description": "Use when assessing an AI system or use case under the EU Artificial Intelligence Act: risk class, obligations, timeline…"
+          },
+          {
+            "name": "contract-review",
+            "description": "Use when reviewing a contract, MoU, NDA, or commercial offer to surface risks, unfavourable terms, and proposed redline…"
+          },
+          {
+            "name": "dpia-draft",
+            "description": "Use when preparing a draft GDPR data protection impact assessment (DPIA) for a project or AI system."
+          },
+          {
+            "name": "funding-sandboxes",
+            "description": "Use when finding or evaluating grants, calls, regulator sandboxes, consortia, and other opportunity windows with deadli…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d",
       "version": "1.0.0",
